@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(102, 183, 102);
+}
+
+nav {
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.bannière {
+    background-image: url("Accueil.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    padding: 1em;
+    font-size: 3em;
+    
+}
+
+h2 {
+    font-size: small;
+    
+}
+
+h3 {
+    text-align: center;
+    margin: 1em;
+}
+
+.article {
+    margin: 1em;
+    padding-bottom: 1em;
+    font-size: small;
+    text-align: justify;
+}
+@media screen and (min-width: 1024px){
+    body {
+      background-color: azure;
+    }
+    nav {
+      height: 5em;
+      background-image: url("/villes/bogside.png");
+      position: sticky;
+      opacity: 0.6;
+      }
+    a {
+      color: black;
+      font-size: 2em;
+      font-weight: bold;
+      }
+      .présentation {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+      }
+      .article {
+        width: 50%;
+      }
+      .bannière {
+          opacity: 0.8;
+    }
+    ul {
+        justify-content:left;
+        }
+    li {
+        margin: 1em;
+    }
+}
