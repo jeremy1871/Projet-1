@@ -61,6 +61,11 @@ label{
 textarea {
     height: 50px;
 }
+.gif {
+    position: absolute;
+    top: 30%; right: 30%; bottom: 30%; left: 30%;
+    visibility: hidden;
+   }
 @media screen and (min-width: 768px){
     textarea {
         height: 100px;
