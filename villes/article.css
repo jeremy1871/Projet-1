@@ -76,7 +76,7 @@ width: 100%;
   }
   nav {
     height: 5em;
-    background-image: url("/villes/bogside.png");
+    background-image: url("bogside.png");
     position: sticky;
     opacity: 0.6;
     }
